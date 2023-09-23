@@ -9,22 +9,22 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: "89adb279-305b-4efd-9419-6112b87b5ec4"
-          heroku_app_name: "newbottt"
-          heroku_email: "herono1692@outlook.com"
+          heroku_api_key: "b6900698-ed6a-427a-bd65-37b50148c9cd"
+          heroku_app_name: "arctix-torrent-file-select-102"
+          heroku_email: "muzanboy1@outlook.com"
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
           region: "eu"
         env:
-          HD_OWNER_ID: "5301275567"
-          HD_TELEGRAM_API: "7565664"
-          HD_TELEGRAM_HASH: "a7a22b0f30b45dc64973ad11461325dc"
-          HD_DATABASE_URL: "mongodb+srv://a1:a1@multi.qeowc76.mongodb.net/?retryWrites=true&w=majority"
-          HD_BOT_TOKEN: "6327771564:AAGMC3pfhHc64tBQsO2G6e-I3VCSNJFEbzM"
+          HD_OWNER_ID: "1881720028"
+          HD_TELEGRAM_API: "11405252"
+          HD_TELEGRAM_HASH: "b1a1fc3dc52ccc91781f33522255a880"
+          HD_DATABASE_URL: "mongodb+srv://1:1@wzmlx.d66t4eb.mongodb.net/?retryWrites=true&w=majority"
+          HD_BOT_TOKEN: "6596160785:AAGet3-FDyI1XjOU9w1zhr-81rVbLrYgRvA"
           HD_SUDO_USERS: "1881720028"
-          HD_UPSTREAM_BRANCH: "alpha"
-          HD_UPSTREAM_REPO: "https://github.com/5hojib/Aeon"
-          HD_BASE_URL: "https://newbottt-45ae6a7f8025.herokuapp.com/"
+          HD_UPSTREAM_BRANCH: "hk_wzmlx"
+          HD_UPSTREAM_REPO: "https://gitlab.com/mysterysd.sd/WZML-X"
+          HD_BASE_URL: "https://arctix-torrent-file-select-102-d89e46309329.herokuapp.com/"
           HD_SEARCH_API_LINK: "https://torrent-api-py-nx0x.onrender.com"
           
